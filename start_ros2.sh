@@ -14,5 +14,5 @@ echo "-------------------------------"
 
 source ~/ros-agent/autoware/install/setup.bash
 
-ros2 launch ~/ros-agent/autoware/src/launcher/autoware_launch/autoware_launch/launch/autoware.launch.xml map_path:=$(HOME)/ros-agent/bridge/Maps vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
+ros2 launch ~/ros-agent/autoware/src/launcher/autoware_launch/autoware_launch/launch/autoware.launch.xml map_path:=$HOME/ros-agent/bridge/Maps vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
 #$SHELL
